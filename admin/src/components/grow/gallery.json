@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_grow_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

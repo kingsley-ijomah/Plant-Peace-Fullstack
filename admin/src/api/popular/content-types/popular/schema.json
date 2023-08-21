@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "populars",
+  "info": {
+    "singularName": "popular",
+    "pluralName": "populars",
+    "displayName": "Popular",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

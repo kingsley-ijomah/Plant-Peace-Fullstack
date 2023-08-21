@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_nav_logos",
+  "info": {
+    "displayName": "Logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

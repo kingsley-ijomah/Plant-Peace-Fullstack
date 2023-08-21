@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_grow_grow_steps",
+  "info": {
+    "displayName": "GrowSteps"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
